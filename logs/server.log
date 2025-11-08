@@ -3,55 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 210 ms
+  VITE v5.4.20  ready in 271 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.16.136:3000/
-5:04:13 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/HeroSection.jsx:53:92: ERROR: Expected "}" but found "as"
-5:04:14 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/HeroSection.jsx:53:92: ERROR: Expected "}" but found "as"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/HeroSection.jsx:53:92
-  
-  Expected "}" but found "as"
-  51 |                height: p.size,
-  52 |                opacity: p.opacity,
-  53 |                animation: `floatY ${p.duration}s ${p.delay}s ease-in-out infinite alternate` as any,
-     |                                                                                              ^
-  54 |                boxShadow: '0 0 12px rgba(0,217,255,0.6)'
-  55 |              }}
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-5:04:34 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/HeroSection.jsx:53:92: ERROR: Expected "}" but found "as"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/HeroSection.jsx:53:92
-  
-  Expected "}" but found "as"
-  51 |                height: p.size,
-  52 |                opacity: p.opacity,
-  53 |                animation: `floatY ${p.duration}s ${p.delay}s ease-in-out infinite alternate` as any,
-     |                                                                                              ^
-  54 |                boxShadow: '0 0 12px rgba(0,217,255,0.6)'
-  55 |              }}
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)

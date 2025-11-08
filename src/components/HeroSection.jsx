@@ -50,7 +50,7 @@ export default function HeroSection() {
               width: p.size,
               height: p.size,
               opacity: p.opacity,
-              animation: `floatY ${p.duration}s ${p.delay}s ease-in-out infinite alternate` as any,
+              animation: `floatY ${p.duration}s ${p.delay}s ease-in-out infinite alternate`,
               boxShadow: '0 0 12px rgba(0,217,255,0.6)'
             }}
           />
